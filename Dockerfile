@@ -1,5 +1,5 @@
 FROM jenkins
-
+EXPOSE 8080
 USER root
 
 RUN curl -sL https://deb.nodesource.com/setup_7.x | bash && \
